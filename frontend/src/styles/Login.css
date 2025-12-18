@@ -1,0 +1,54 @@
+body {
+  background-color: #f5f7fa;
+}
+
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(
+      to bottom right,
+      rgba(10, 25, 47, 0.8),
+      rgba(0, 188, 212, 0.5)
+    ),
+    url("../assets/city.jpg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.forgot-password a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: #00bcd4;
+  border-color: #00bcd4;
+}
+
+.btn-primary:hover {
+  background-color: #0097a7;
+  border-color: #0097a7;
+}
+
+.register-link a {
+  color: #00bcd4;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+.home-link a {
+  color: #00bcd4;
+}

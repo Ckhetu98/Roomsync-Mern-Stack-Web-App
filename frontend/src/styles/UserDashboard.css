@@ -1,0 +1,40 @@
+.user-dashboard-container {
+  background: linear-gradient(to bottom right, rgba(223, 226, 228, 0.8), rgba(228, 237, 239, 0.5));
+  min-height: 100vh;
+  color: #f5f5f5;
+  padding-bottom: 50px;
+}
+
+/* Image styling for consistent size */
+.city-image {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+}
+
+.card.hostel-card {
+  background-color: rgba(242, 236, 236, 0.07);
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #fff;
+}
+
+.card.hostel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(229, 230, 230, 0.3);
+}
+
+.search-bar input {
+  border: 1px solid #00bcd4;
+}
+
+.btn-outline-primary {
+  border-color: #00bcd4;
+  color: #00bcd4;
+}
+
+.btn-outline-primary:hover {
+  background-color: #00bcd4;
+  color: #ec7777;
+}

@@ -1,0 +1,65 @@
+.home-page {
+  position: relative;
+  background-image: url("../assets/city.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(10, 25, 47, 0.85),
+    rgba(18, 33, 35, 0.5)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  z-index: 1;
+  text-align: center;
+  max-width: 600px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.content h1 .highlight {
+  color: #00bcd4; /* Teal accent */
+}
+
+.content p {
+  font-size: 1.25rem;
+  color: #e8eef1;
+}
+
+.btn-primary {
+  background-color: #00bcd4;
+  border-color: #00bcd4;
+}
+
+.btn-primary:hover {
+  background-color: #0097a7;
+  border-color: #0097a7;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #0a192f;
+}
